@@ -25,7 +25,8 @@ public class TestBase {
         public TestBase() {
             try {
                 prop = new Properties();
-                FileInputStream ip = new FileInputStream("/Users/rahul/IdeaProjects/com.crm.qa.Testbase/src/main/java/com/auto/qa/config/config.properties");
+                FileInputStream ip = new FileInputStream("C:\\Users\\SUNITA\\Desktop\\ICT Testing\\Ravi-Shankar-SDET\\"
+                        + "nopcommerce_bdd\\src\\main\\java\\com\\qa\\auto\\config\\config.properties");
                 prop.load(ip);
 
             } catch (FileNotFoundException e) {
@@ -37,9 +38,9 @@ public class TestBase {
 
         public static void initialization() {
             String browserName = prop.getProperty("browser");
-              if (browserName.equals("chrome")){WebDriverManager.chromedriver().setup();
-            //if (browserName.equals("chrome")) { //webdriver mananger is not working with IF condition.
-                //System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
+              //if (browserName.equals("chrome")){WebDriverManager.chromedriver().setup();
+            if (browserName.equals("chrome")) { //webdriver mananger is not working with IF condition.
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\SUNITA\\Desktop\\Ravi\\software\\chromedriver_win32\\chromedriver.exe");
 
                 driver = new ChromeDriver();
                 e_driver = new EventFiringWebDriver(driver);

@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Automation Practice Login Scenario",
+        "description": "",
+        "id": "automation-practice;automation-practice-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20320968600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is already on Account Page",
+            "match": {
+              "location": "accountStepDefinition.userIsAlreadyOnAccountPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38225500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "title of login page is My Store",
+            "match": {
+              "location": "accountStepDefinition.titleOfLoginPageIsMyStore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6671279000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"ravishankarpatro@gmail.com\" and \"r2vmauto@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ravishankarpatro@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "r2vmauto@123",
+                  "offset": 46
+                }
+              ],
+              "location": "accountStepDefinition.userEntersAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24613700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on My Account page",
+            "match": {
+              "location": "accountStepDefinition.userIsOnMyAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1546011100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on Your personal information link",
+            "match": {
+              "location": "accountStepDefinition.userClicksOnYourPersonalInformationLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183891500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks radio button titled Mr",
+            "match": {
+              "location": "accountStepDefinition.userClicksRadioButtonTitledMr()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444380000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on First name input box and enters first name and user enters \"ravi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ravi",
+                  "offset": 75
+                }
+              ],
+              "location": "accountStepDefinition.userClicksOnFirstNameInputBoxAndEntersFirstName(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364326400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on Second Name input box and enters second name \"shankar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shankar",
+                  "offset": 61
+                }
+              ],
+              "location": "accountStepDefinition.userClicksOnSecondNameInputBoxAndEntersSecondName(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 483267900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on Email and enters email address",
+            "match": {
+              "location": "accountStepDefinition.userClicksOnEmailAndEntersEmailAddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28886200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters Date of birth using drop down",
+            "match": {
+              "location": "accountStepDefinition.userEntersDateOfBirthUsingDropDown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1470032900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the browser1",
+            "match": {
+              "location": "accountStepDefinition.Close_the_browser1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice",
+    "description": "",
+    "id": "automation-practice",
+    "keyword": "Feature",
+    "uri": "C:/Users/SUNITA/Desktop/ICT Testing/Cucumber_autopract/src/main/java/Features/account.feature"
+  }
+]

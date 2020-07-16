@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "nopcommerce search scenario",
+        "description": "",
+        "id": "nopcommerce;nopcommerce-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18121288100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "WishlistSteps.userOpensBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76045100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of home page is nopCommerce demo store",
+            "match": {
+              "location": "WishlistSteps.titleOfHomePageIsNopCommerceDemoStore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2165752900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Wishlist link",
+            "match": {
+              "location": "WishlistSteps.userClicksOnWishlistLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1532240000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "WishlistSteps.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "nopcommerce",
+    "description": "",
+    "id": "nopcommerce",
+    "keyword": "Feature",
+    "uri": "wishlist.feature"
+  }
+]
